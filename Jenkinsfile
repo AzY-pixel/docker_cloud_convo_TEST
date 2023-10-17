@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   environment {
-       imagename = "tkibnyusuf/julyjavaimage"
-       registryCredential = 'Docker-hub'
+       imagename = "azzysikal/javatest"
+       registryCredential = 'docker_hub'
        dockerImage = ''
            }
 
