@@ -7,7 +7,7 @@ pipeline {
        dockerImage = ''
            }
 
-  
+
   stages {
 
     stage ('Build') {
